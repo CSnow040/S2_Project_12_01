@@ -16,18 +16,18 @@
    The itemQty array contains the quantity ordered of each item
    
 */
-
-var item = new Array(
-    10582,
-    23015,
-    41807,
-    10041
-);
-
-var itemDescription = new Array(
+//This places the parameters for the variable named item to make indiviual numbering for each item 
+var item = [
+    10582, 23015, 41807, 10041
+];
+//Gives each item a description that will be planted into the JavaScript for the cart  
+var itemDescription = [
     "1975 Green Bay Packers Football (signed), Item 10582",
     "Tom Landry 1955 Football Card (unsigned), Item 23015",
     "1916 Army-Navy Game, Framed Photo (signed), Item 41807",
     "Protective Card Sheets, Item 10041"
-
-)
+];
+//This variable named itemPrice will give each item its separate price 
+var itemPrice = [143.93, 89.98, 334.93, 22.67];
+//This variable gives each item its own quantity specified to the user
+var itemQty = [1, 1, 1, 4];
